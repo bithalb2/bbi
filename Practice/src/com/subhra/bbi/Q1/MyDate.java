@@ -18,7 +18,7 @@ public class MyDate {
 	/* This the the validate() method to validate the input string
 	 */
 	public boolean validate(String input) {
-		// monthArray holds the maximum days in a particular month (Indesing start from 1)
+		// monthArray holds the maximum days in a particular month (Indexing start from 1)
 		int[] monthArray = {0,31,28,31,30,31,30,31,31,30,31,30,31};
 		
 		try {
